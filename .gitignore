@@ -1,0 +1,11 @@
+# 데이터셋 제외
+open
+open.zip
+
+# 캐시 및 가상환경 관련
+__pycache__/
+*.pyc
+*.pyo
+env/
+venv/
+*.log
