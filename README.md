@@ -1,8 +1,8 @@
-🚧 건설 안전사고 예방 AI (LLM 기반 RAG)
+# 🚧 건설 안전사고 예방 AI (LLM 기반 RAG)
 
 이 프로젝트는 건설 현장에서 발생하는 사고 데이터를 분석하고, 관련 지침서를 참고하여 재발 방지 대책 및 향후 조치 계획을 자동으로 생성하는 AI 모델을 구축하는 것입니다. LLM (Large Language Model)과 FAISS 기반 벡터 검색을 활용하여, 사용자 질문에 대한 최적의 답변을 제공합니다.
 
-📌 주요 기능
+## 📌 주요 기능
 
 PDF 문서 분석: 건설 안전 지침서를 분석하여 RAG (Retrieval-Augmented Generation) 기반 답변을 생성
 
@@ -14,7 +14,7 @@ Hugging Face LLM 사용: GPT-J 6B 모델을 8bit 양자화하여 사용, 재발 
 
 Docker 컨테이너 지원: 프로젝트 환경을 쉽게 설정하고 실행할 수 있도록 Docker 기반 배포 지원
 
-🛠️ 프로젝트 파일 구조
+## 🛠️ 프로젝트 파일 구조
 
 .
 ├── Dockerfile               # Docker 이미지 구성 파일
@@ -27,29 +27,29 @@ Docker 컨테이너 지원: 프로젝트 환경을 쉽게 설정하고 실행할
 │   ├── 건설안전지침/        # PDF 지침서 폴더
 └── README.md               # 프로젝트 설명
 
-📦 필요 라이브러리
+## 📦 필요 라이브러리
 
 이 프로젝트에서 사용되는 라이브러리는 requirements.txt 파일에 정의되어 있으며, 다음과 같은 주요 패키지가 포함됩니다.
 
-# PyTorch + CUDA 11.2 지원
+## PyTorch + CUDA 11.2 지원
 torch==1.12.1+cu112
 torchvision==0.13.1+cu112
 torchaudio==0.12.1+cu112
 
-# NLP 및 LLM 관련 패키지
+## NLP 및 LLM 관련 패키지
 transformers==4.26.1
 langchain==0.1.10
 langchain-community==0.1.10
 faiss-cpu==1.7.4
 sentence-transformers==2.2.2
 
-# 데이터 처리 및 PDF 분석
+## 데이터 처리 및 PDF 분석
 pymupdf==1.23.6
 pandas==1.5.3
 numpy==1.23.5
 scipy==1.10.1
 
-🚀 Docker 환경에서 실행하는 방법
+## 🚀 Docker 환경에서 실행하는 방법
 
 이 프로젝트는 Docker 컨테이너 환경에서 실행할 수 있습니다.
 
