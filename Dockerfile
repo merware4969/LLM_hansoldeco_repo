@@ -1,5 +1,5 @@
-# 기본 이미지 설정 (PyTorch + CUDA 지원)
-FROM nvidia/cuda:11.8.0-runtime-ubuntu22.04
+# 기본 이미지 설정 (PyTorch + CUDA 11.2 지원)
+FROM nvidia/cuda:11.2.2-runtime-ubuntu20.04
 
 # 작업 디렉토리 설정
 WORKDIR /app
