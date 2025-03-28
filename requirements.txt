@@ -1,0 +1,7 @@
+langchain==0.0.310
+transformers==4.30.2
+torch==1.13.1
+pandas
+pymupdf==1.22.0
+faiss-cpu==1.7.4
+bitsandbytes==0.37.0
